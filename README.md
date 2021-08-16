@@ -1,3 +1,5 @@
+
+
 # ToDo
 This is a ToDo-List WebAPP showing the easy implementation of CRUD operations and Template Inheritence in python FLASK using Bootstrap.
 
@@ -13,3 +15,6 @@ Flask uses Jinja for its template functionalities.<br><br>
 #### How to apply Template Inheritence?
 - [x] Create a new file called ‘base.html’ inside templates folder. This file will be base template.
 - [x] we can open the index.html file and inherit the base.html file to it using the keyword ‘extends’.
+
+This video demostrates the webapp and shows CRUD operations implementing.
+https://user-images.githubusercontent.com/60935490/129556789-8d27721c-e491-443c-a62e-096e70f2a142.mp4
