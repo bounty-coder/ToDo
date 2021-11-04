@@ -18,3 +18,10 @@ Flask uses Jinja for its template functionalities.<br><br>
 <br>
 This video demostrates the webapp and shows CRUD operations implementing.<br>
 https://user-images.githubusercontent.com/60935490/129556789-8d27721c-e491-443c-a62e-096e70f2a142.mp4
+
+#### Deploying App on Elastic Beanstalk
+Necessary Conditions to follow-
+- [x] Flask app name must be application, as well as file name must be 'application.py'.
+- [x] Create a `.ebextensions` folder containing file 'python.config'. To configure your environment and customize the AWS resources that it contains.
+- [x] Compress all files in `.zip` extension and upload it to new Elastic Beanstalk environment.
+Patiently wait until it deploys🙃.
